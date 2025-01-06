@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "typescript",
+			"label": "tsc: build - worker/tsconfig.json",
+			"tsconfig": "worker/tsconfig.json",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}
